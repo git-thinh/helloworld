@@ -1,5 +1,6 @@
 @echo off
 
+test&cls
 
 echo [ === BUILD ALL === ] 
 

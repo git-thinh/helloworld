@@ -1,5 +1,7 @@
 @echo off
 
+test&cls
+
 echo [ === CLEAN LIB === ] 
 
 
