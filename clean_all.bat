@@ -12,4 +12,4 @@ del /s /q /f *.exe
 
 echo clean all [*.o; *.a, *.dll] complete ...
 
- 
+  

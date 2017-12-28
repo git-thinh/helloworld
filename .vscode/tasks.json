@@ -16,7 +16,7 @@
             "dependsOn": [],
             "command": "build_all.bat",
             "args": [
-                "build"
+                "${workspaceFolder}/BUILD"
             ],
         },
         {
