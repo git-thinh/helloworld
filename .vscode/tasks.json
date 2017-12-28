@@ -1,10 +1,32 @@
-{  
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
-    "version": "0.1.0",
-    "windows": {
-       "command": "build.bat",
-       "isShellCommand": true,
-       "showOutput": "always"
-    }
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Clean_Lib",
+            "dependsOn": [],
+            "command": "clean.bat",
+            "args": [
+                "build"
+            ],
+        },
+        {
+            "label": "Build_All",
+            "dependsOn": [],
+            "command": "build.bat",
+            "args": [
+                "build"
+            ],
+        },
+        {
+            "label": "Build",
+            "dependsOn": [
+                "Clean_Lib",
+                "Build_All"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
 }

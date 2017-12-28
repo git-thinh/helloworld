@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [        
+        
         {
             "name": "(gdb) Launch",
             "type": "cppdbg",
@@ -20,7 +21,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "build hello world"
+            //"preLaunchTask": "Build_All" 
         }
     ]
 }

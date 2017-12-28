@@ -1,9 +1,10 @@
 @echo off
 
+echo [ === BUILD ALL === ] 
 
 ::g++ -o demo.exe -g helloworld.cpp
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 g++ -c -DBUILDING_EXAMPLE_DLL example_dll.cpp
 g++ -shared -o example_dll.dll example_dll.o -Wl,--out-implib,libexample_dll.a
 g++ -c helloworld.cpp
