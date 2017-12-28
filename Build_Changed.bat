@@ -1,7 +1,7 @@
 @echo off
 
 
-echo [ === BUILD ALL === ] 
+echo [ === BUILD CHANGING ... === ] 
 
 ::g++ -o demo.exe -g helloworld.cpp
 

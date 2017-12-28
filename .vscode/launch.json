@@ -21,7 +21,7 @@
                     "ignoreFailures": true
                 }
             ],
-            //"preLaunchTask": "Build_All" 
+            //"preLaunchTask": "Build_Changed" 
         }
     ]
 }

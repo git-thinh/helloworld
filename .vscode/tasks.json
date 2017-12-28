@@ -18,10 +18,19 @@
             ],
         },
         {
+            "label": "Build_Changed",
+            "dependsOn": [],
+            "command": "Build_Changed.bat",
+            "args": [
+                "build"
+            ],
+        },
+        {
             "label": "Build",
             "dependsOn": [
                 "Clean_Lib",
-                "Build_All"
+                "Build_All",
+                "Build_Changed",
             ],
             "group": {
                 "kind": "build",
