@@ -5,7 +5,7 @@
             //> Task clean all file Lib: *.o, *.a, *.dll ...
             "label": "Clean_Lib",
             "dependsOn": [],
-            "command": "clean.bat",
+            "command": "clean_all.bat",
             "args": [
                 "build"
             ],
@@ -14,7 +14,7 @@
             //> Task build all file code ...
             "label": "Build_All",
             "dependsOn": [],
-            "command": "build.bat",
+            "command": "build_all.bat",
             "args": [
                 "build"
             ],
